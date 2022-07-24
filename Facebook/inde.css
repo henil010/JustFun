@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    cursor: default;
+}
+
+.dt {
+    background-color: white;
+    width: 396px;
+    padding: 15px 1px 20px 1px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.hr{
+    width: 50px;
+}
+.face {
+    text-align: left;
+    padding: 30px;
+    width: 500px;
+    margin-right: 70px;
+}
+.face img{
+    height: 106px;
+    margin: -28px;
+    margin-bottom: 1px;
+}
+.face p{
+    font-size: 24px;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+input{
+    width: 85%;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.input:focus{
+    border: 1px solid #1877f2;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.butt{
+    width: 92%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #1877f2;
+    cursor: pointer;
+}
+.forget{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.forget a{
+    color: #1877f2;
+}
+.bac{
+    margin: auto;
+    width: 85%;
+    height: 1px;
+    margin-bottom: 25px;
+    background: rgb(221, 221, 221);
+}
+button{
+    padding: 13px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: white;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.bottom{
+    margin-top: 22px;
+    font-size: 15px;
+}
+.bottom a{
+    color: black;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1080px){
+    .main{   
+        margin: auto;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%,-60%);
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .main{
+        padding: 20px;
+        width: 100%;
+        overflow: auto;
+        height: 100%;
+        text-align: center;
+        display: block;
+    }
+    .bottom{
+        margin-bottom: 15px;
+    }
+    .face {
+        text-align: left;
+        padding: 30px;
+        width: 400px;
+        margin-bottom: 13px;
+        margin-right: 5px;
+    }
+    .dt{
+        margin-bottom: 20px;
+    }
+    .face img{
+        height: 106px;
+        margin-bottom: 1px;
+    }
+    .face p{
+        font-size: 24px;
+        font-weight: normal;
+    }
+}

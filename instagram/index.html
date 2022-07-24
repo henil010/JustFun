@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title> Login • Instagram </title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" href="Image/icon.png">
+    <script src="JS/valid.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="header">
+                <img src="Image/insta.png" alt="not load">
+            </div>
+            <div class="infor">
+                <input type="text" autocomplete="off" class="input" placeholder="Phone number, username, or email"
+                    id="user" onkeyup="check()">
+                <div class="passwor">
+                    <input type="password" class="inputx" placeholder="password" id="pass" onkeyup="check()"> <span
+                        class="show" onclick="hide()" id="sh">Show</span>
+                </div>
+                <input type="button" class="butt" value="Log in" id="login" onclick="logC()">
+            </div>
+            <div class="or">
+                <div class="desd"></div>
+                <span class="osr">OR</span>
+                <div class="desd"></div>
+            </div>
+            <div class="box1_bottm">
+                <div class="fbB">
+                    <a href=""><i class="bi bi-facebook"></i><span class="fb">Log in With Facebook</span></a> <br>
+                </div>
+                <a href=""><span class="forget"> Forgot password?</span></a>
+            </div>
+        </div>
+        <div class="box box2">
+            <span class="crea">Don't have an account?</span> <a href="" class="sign"> Sign up</a>
+        </div>
+        <div class="box3">
+            <span class="getapp"> Get the app.</span>
+        </div>
+        <div class="install">
+            <a href="">
+                <img src="Image/apple.png" alt="apple">
+            </a>
+            <a href="">
+                <img src="Image/playStore.png" alt="playStore">
+            </a>
+        </div>
+    </div>
+    <div class="last">
+        <div class="boti">
+            <div class="bottom">
+                <a href=""> Meta</a>
+                <a href="">About</a>
+                <a href="">Blog</a>
+                <a href="">Jobs</a>
+                <a href="">Help</a>
+                <a href="">API</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Top Accounts</a>
+                <a href="">Hashtags</a>
+                <a href="">Locations</a>
+                <a href="">Instagram Lite</a>
+            </div>
+        </div>
+        <span class="la">© 2022 Instagram from Meta</span>
+    </div>
+</body>
+
+</html>
